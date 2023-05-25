@@ -20,16 +20,10 @@
 <meta property="og:url" content="http://operator-portal.test/operator-specific-mcctl-and-rest-apis/mcctl-reference/mcctl-installation-and-setup-guide" />
 <meta property="og:site_name" content="EdgeXR Operators" />
 <meta property="og:locale" content="en_US" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@mobiledgex" />
-<meta name="twitter:title" content="mcctl Installation and Setup Guide" />
-<meta name="twitter:description" content="Learn how to download and install the mcctl utility, manage users and organizations, and review mcctl commands" />
 <meta property="og:image" content="http://operator-portal.test/img/containers/assets/operators-social.jpg/5c20751e252519234312d7cbdaeb6738.jpg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="1200" />
 <meta property="og:image:alt" content="" />
-<meta name="twitter:image" content="http://operator-portal.test/img/containers/assets/operators-social.jpg/5c20751e252519234312d7cbdaeb6738.jpg" />
-<meta name="twitter:image:alt" content="" />
 <link href="http://operator-portal.test/" rel="home" />
 <link href="http://operator-portal.test/operator-specific-mcctl-and-rest-apis/mcctl-reference/mcctl-installation-and-setup-guide" rel="canonical" />
 <link type="text/plain" rel="author" href="http://operator-portal.test/humans.txt" />
@@ -398,7 +392,7 @@
 <div class="markdown-body">
   <h1>mcctl Installation and Setup Guide</h1>
 
-            <h2 id='what-is-mcctl-utility'><a class='anchor' aria-hidden='true' href='#what-is-mcctl-utility'><svg class='octicon octicon-link' viewBox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true'><path fill-rule='evenodd' d='M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z'></path></svg></a>What is <code>mcctl</code> Utility?</h2><p>The <code>mcctl</code> utility is designed to provide access to the EdgeXR APIs from the command line. This is a EdgeXR supported utility and can be downloaded from Artifactory. Binaries for both MacOS and Linux x86_64 are available.</p><h2 id='download-the mcctl utility'><a class='anchor' aria-hidden='true' href='#download-the mcctl utility'><svg class='octicon octicon-link' viewBox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true'><path fill-rule='evenodd' d='M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z'></path></svg></a>Download the <code>mcctl</code> Utility:</h2><ol start="1"><li><p>Go to <a href="https://artifactory.openxedge.net/"><strong>artifactory.openxedge.net</strong></a>. Log in to Artifactory using the same credentials used to log into the <a href="https://console.cloud.edgexr.org/"><strong>Edge-Cloud Console</strong></a>.</p></li><li><p>On the left navigation, select <strong>Artifacts</strong>. Then, in the folder directory, select <strong>downloads &gt; mcctl &gt; </strong>(preferred operating system)<strong> &gt; mcctl</strong>.</p></li></ol>
+            <h2 id='what-is-mcctl-utility'><a class='anchor' aria-hidden='true' href='#what-is-mcctl-utility'><svg class='octicon octicon-link' viewBox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true'><path fill-rule='evenodd' d='M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z'></path></svg></a>What is <code>mcctl</code> Utility?</h2><p>The <code>mcctl</code> utility is designed to provide access to the EdgeXR APIs from the command line. This is a EdgeXR supported utility and can be downloaded from Artifactory. Binaries for both MacOS and Linux x86_64 are available.</p><h2 id='download-the mcctl utility'><a class='anchor' aria-hidden='true' href='#download-the mcctl utility'><svg class='octicon octicon-link' viewBox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true'><path fill-rule='evenodd' d='M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z'></path></svg></a>Download the <code>mcctl</code> Utility:</h2><ol start="1"><li><p>Go to <a href="https://artifactory.edgexr.org/"><strong>artifactory.edgexr.org</strong></a>. Log in to Artifactory using the same credentials used to log into the <a href="https://console.cloud.edgexr.org/"><strong>Edge-Cloud Console</strong></a>.</p></li><li><p>On the left navigation, select <strong>Artifacts</strong>. Then, in the folder directory, select <strong>downloads &gt; mcctl &gt; </strong>(preferred operating system)<strong> &gt; mcctl</strong>.</p></li></ol>
                       <figure class="">
         <img src="/assets/artifactory.png" class="img-fluid slb" alt="">
         <figcaption></figcaption>
@@ -493,7 +487,7 @@ app:
     name: deleteme
     organization: testmonitor
     version: &#039;1.0&#039;
-  image_path: docker.openxedge.net/testmonitor/images/myfirst-app:v1
+  image_path: docker.edgexr.org/testmonitor/images/myfirst-app:v1
   image_type: 1
   configs:
   - config: &quot;&lt;yaml-content0&gt;&quot;
